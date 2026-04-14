@@ -33,27 +33,44 @@ This project is a console-based Online Quiz System developed using Core Java.It 
 - README.md
 
 ## 📄 File Format (questions.txt)
+
 Each question is stored in the following format:
 
+```
 Question
 Option A
 Option B
 Option C
 Option D
 Correct Answer (A/B/C/D)
+```
 
 ## ▶️ Execution
+
 1. Compile the program
-   ` javac QuizApp.java
-2.Run the program
-   ` java QuizApp
-3.Choose:
-- 1 -->Admin(Add questions)
-- 2 -->User(Take quiz)
+
+```
+javac QuizApp.java
+```
+
+2. Run the program
+
+```
+java QuizApp
+```
+
+3. Choose:
+
+```
+1 → Admin (Add questions)
+2 → User (Take quiz)
+```
 
 ## 💡 Sample Output
 
+```
 Welcome to Online Quiz System
+
 1. Admin
 2. User
 Enter your choice: 2
@@ -74,6 +91,8 @@ Correct!
 Quiz Finished!
 Your Score: 5/6
 Excellent! You got all answers correct!
+```
+
 
 ## 🔮 Future Enhancements
 
